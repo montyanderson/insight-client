@@ -1,6 +1,6 @@
 {
   "name": "insight-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Node.JS client for the Bitcore Insight API.",
   "main": "index.js",
   "scripts": {
