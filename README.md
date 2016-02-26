@@ -8,7 +8,7 @@ $ npm install insight-client --save
 ```
 
 ``` javascript
-const insight = require("./");
+const insight = require("insight-client");
 
 const node = new insight("https://insight.bitpay.com/api");
 
@@ -16,4 +16,22 @@ node.blockIndex(100, function(err, data) {
     console.log(err || data);
 });
 
+```
+
+## Endpoints
+
+The endpoints are as listed:
+
+``` javascript
+const endpoints = {
+    block: "block",
+    blockIndex: "block-index",
+    tx: "tx",
+    rawtx: "rawtx",
+    addr: "addr",
+    addrs: "addrs",
+    txs: "txs",
+    sync: "sync",
+    peer: "peer"
+};
 ```
