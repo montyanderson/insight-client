@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 const path = require("path");
 const request = require("request");
 
@@ -12,7 +12,7 @@ const endpoints = {
     txs: "txs",
     sync: "sync",
     peer: "peer"
-}
+};
 
 const insight = module.exports = function(url) {
     this.url = url;
