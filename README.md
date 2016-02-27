@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/montyanderson/insight-client.svg?branch=master)](https://travis-ci.org/montyanderson/insight-client)
 [![Dependency Status](https://david-dm.org/montyanderson/insight-client.svg)](https://david-dm.org/montyanderson/insight-client)
 [![npm](https://img.shields.io/npm/v/insight-client.svg)](https://www.npmjs.com/package/insight-client)
+[![node](https://img.shields.io/node/v/insight-client.svg)](https://www.npmjs.com/package/insight-client)
 
 A Node.JS client for the Bitcore Insight API.
 
