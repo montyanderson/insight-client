@@ -35,7 +35,12 @@ for(let key in endpoints) {
 
         request(url, function(err, res, body) {
             if(err) return callback(err);
-            if(callback) callback(null, JSON.parse(body));
+
+            try {
+                callback(null, JSON.parse(body));
+            } catch(e) {
+                callback(e);
+            }
         });
     }
 }
