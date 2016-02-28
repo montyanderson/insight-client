@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 const path = require("path");
 const request = require("request");
 
@@ -13,6 +13,11 @@ const endpoints = {
     sync: "sync",
     peer: "peer"
 };
+
+/**
+ * Returns a new node.
+ * @constructor
+ */
 
 const insight = module.exports = function(url) {
     this.url = url;
