@@ -1,6 +1,8 @@
 # insight-client
 [![Build Status](https://travis-ci.org/montyanderson/insight-client.svg?branch=master)](https://travis-ci.org/montyanderson/insight-client)
+[![Coverage Status](https://coveralls.io/repos/github/montyanderson/insight-client/badge.svg?branch=master)](https://coveralls.io/github/montyanderson/insight-client?branch=master)
 [![Dependency Status](https://david-dm.org/montyanderson/insight-client.svg)](https://david-dm.org/montyanderson/insight-client)
+[![devDependency Status](https://david-dm.org/montyanderson/insight-client/dev-status.svg)](https://david-dm.org/montyanderson/insight-client#info=devDependencies)
 [![npm](https://img.shields.io/npm/v/insight-client.svg)](https://www.npmjs.com/package/insight-client)
 [![node](https://img.shields.io/node/v/insight-client.svg)](https://www.npmjs.com/package/insight-client)
 
