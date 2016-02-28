@@ -4,7 +4,7 @@
   "description": "A Node.JS client for the Bitcore Insight API.",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js && istanbul cover test.js --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
   },
   "engines": {
     "node": ">=4.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.8",
+    "istanbul": "^0.4.2"
   }
 }
